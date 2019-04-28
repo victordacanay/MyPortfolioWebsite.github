@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/trees.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+.nav{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 18%;
+	left: 0;
+}
+
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: #fff;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+
+.nav a:hover{
+	background-color: white;
+	color: black;
+	width: 110%;
+}
+.a{
+	width: 100%;
+}
+.b{
+	width: 88%;
+}
+.c{
+	width: 80%;
+}
+.d{
+	width: 85%;
+}
+.e{
+	width: 95%;
+}
+
+
+.content{
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	/*background-color: red;*/
+	right: 0;
+	top:15%;
+}
+
+.home{
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	color: white;
+	font-family: verdana;
+}
+
+.home h1{
+	font-size: 100px;
+	padding-right: 90px;
+	border-bottom: 3px solid white;
+	text-transform: uppercase;
+}
+
+.home h2{
+	font-size: 80px;
+	padding-right: 90px;
+	border-bottom: 2px solid white;
+	text-transform: uppercase;
+}
+
+.home h3{
+	font-size: 28px;
+	padding: 5px 0;
+	opacity: 1.0;
+}
+
+.aboutus{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: white;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: non ;
+}
+.aboutus p{
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+.gallery{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	padding: 0 60px
+}
+.gallery .image{
+	width: 23%;
+	margin: 2%;
+	float: left;
+}
+.image img{
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
+	padding: 40px;
+	background: black;
+	color: #fff;
+	margin: 0;
+	box-shadow: 0 0 10px #9f8260;
+}
+.logo img{
+	float: right;
+	width: 1px;
+	height: 1px;
+	margin: 0;
+}

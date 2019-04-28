@@ -1,0 +1,22 @@
+body{
+	background-color: brown;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+
+th{
+	font-size: 2em;
+	background-color: black;
+	color: #fff;
+}
+table{
+	width: 35%;
+	
+}
+
+td{
+	padding: 10px;
+}
+
